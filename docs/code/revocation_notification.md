@@ -2,7 +2,7 @@
 
 ### Message type:
 
-https://github.com/rngadam/aries-cloudagent-python/blob/e3f3466f2fb0b2f68c827796083aff3e77a6e8af/aries_cloudagent/protocols/revocation_notification/v2_0/message_types.py
+https://github.com/rngadam/aries-cloudagent-python/blob/e3f3466f2fb0b2f68c827796083aff3e77a6e8af/aries_cloudagent/protocols/revocation_notification/v2_0/message_types.py#L15
 
 ### Protocol:
 
