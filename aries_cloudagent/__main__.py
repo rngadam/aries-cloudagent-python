@@ -24,12 +24,12 @@ def init_debug(args):
         PTVSD_PORT = os.getenv("PTVSD_PORT", 5678)
         try:
             import debugpy
+
             debugpy.listen((PTVSD_HOST, PTVSD_PORT))
             print("=== Waiting for debugger to attach ===")
             debugpy.wait_for_client()
         except ImportError:
-             print("debugpy library was not found")
-
+            print("debugpy library was not found")
 
     if ENABLE_PYDEVD_PYCHARM or "--debug-pycharm" in args:
         try:
