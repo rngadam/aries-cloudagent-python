@@ -63,3 +63,24 @@ https://github.com/rngadam/aries-cloudagent-python/blob/3cb976de06c2c184d0f42df9
 which itself may call init_issuer_registry again:
 
 https://github.com/rngadam/aries-cloudagent-python/blob/3cb976de06c2c184d0f42df9decf4c88143ff221/aries_cloudagent/revocation/routes.py#L1639-L1647
+
+## get_revoc_reg_delta
+
+as documented here:
+
+https://github.com/hyperledger/indy-node/blob/main/docs/source/requests.md#get_revoc_reg_delta
+
+we have this function in legacy_indy:
+
+https://github.com/rngadam/aries-cloudagent-python/blob/d3b5cab2907c59e07bf6ed2471bb36b021f75050/aries_cloudagent/anoncreds/default/legacy_indy/registry.py#L739
+
+
+called from get_revocation_list:
+
+https://github.com/rngadam/aries-cloudagent-python/blob/d3b5cab2907c59e07bf6ed2471bb36b021f75050/aries_cloudagent/anoncreds/default/legacy_indy/registry.py#L762-L774
+
+## legacy to anoncreds-rs
+
+https://hackmd.io/@dbluhm/anoncreds-design-doc
+
+has the legacy implementation with fetching revocation list been replaced by a revocation status list?
