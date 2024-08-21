@@ -1,6 +1,10 @@
 ## Difference between anoncreds and askar
 
+Modules are loaded differently:
+
 https://github.com/rngadam/aries-cloudagent-python/blob/3447dc89fbe9b498139705a2b1ac7c69616b0154/aries_cloudagent/config/default_context.py#L144-L156
+
+Binding different endpoints
 
 ## Minimal askar
 
